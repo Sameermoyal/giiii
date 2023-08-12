@@ -1,0 +1,13 @@
+/ Make the 3 rd element in the list have green background color
+// Make all the elements in the list have bold color font
+
+var item= document.getElementsByClassName("list-group-item");
+console.log(items);
+// console.log(items[2])
+
+
+item[2].style.backgroundColor='green'
+
+for(var i =0; i<items.length;i++){
+    items[i].style.fontWeight='bold';
+}
